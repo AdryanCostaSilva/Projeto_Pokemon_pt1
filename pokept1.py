@@ -47,6 +47,7 @@ while True:
         break
     if encontrado in pokedex:
         print("Este pokémon já está no seu pokedex, não haverá processo de captura!")
+        sleep(1)
     else:
         cont = 0
         while True:
@@ -71,4 +72,5 @@ while True:
                         break
             elif resp == "n":
                 break
+print(f"Os pokémons capturados foram {pokedex}")
 print("Até mais aventureiro!")
